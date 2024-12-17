@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Row for 1¢ -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            style="@style/CustomTextViewStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/label_one_cent" />
+
+        <EditText
+            style="@style/CustomEditTextStyle"
+            android:id="@+id/input_one_cent"
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:autofillHints="none"
+            android:hint="@string/hint_input_one_cent"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <!-- Row for 5¢ -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            style="@style/CustomTextViewStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/label_five_cents" />
+
+        <EditText
+            style="@style/CustomEditTextStyle"
+            android:id="@+id/input_five_cents"
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:autofillHints="none"
+            android:hint="@string/hint_input_five_cents"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <!-- Row for 10¢ -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            style="@style/CustomTextViewStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/label_ten_cents" />
+
+        <EditText
+            style="@style/CustomEditTextStyle"
+            android:id="@+id/input_ten_cents"
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:autofillHints="none"
+            android:hint="@string/hint_input_ten_cents"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <!-- Row for 25¢ -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            style="@style/CustomTextViewStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/label_twenty_five_cents" />
+
+        <EditText
+            style="@style/CustomEditTextStyle"
+            android:id="@+id/input_twentyfive_cents"
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:autofillHints="none"
+            android:hint="@string/hint_input_twentyfive_cents"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <!-- Row for $1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            style="@style/CustomTextViewStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/label_one_dollar" />
+
+        <EditText
+            style="@style/CustomEditTextStyle"
+            android:id="@+id/input_one_dollar"
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:autofillHints="none"
+            android:hint="@string/hint_input_one_dollar"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <!-- Row for $5 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            style="@style/CustomTextViewStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/label_five_dollar" />
+
+        <EditText
+            style="@style/CustomEditTextStyle"
+            android:id="@+id/input_five_dollar"
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:autofillHints="none"
+            android:hint="@string/hint_input_five_dollar"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <!-- Row for $10 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            style="@style/CustomTextViewStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/label_ten_dollar" />
+
+        <EditText
+            style="@style/CustomEditTextStyle"
+            android:id="@+id/input_ten_dollar"
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:autofillHints="none"
+            android:hint="@string/hint_input_ten_dollar"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <!-- Row for $20 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            style="@style/CustomTextViewStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/label_twenty_dollar" />
+
+        <EditText
+            style="@style/CustomEditTextStyle"
+            android:id="@+id/input_twenty_dollar"
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:autofillHints="none"
+            android:hint="@string/hint_input_twenty_dollar"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <!-- Row for $50 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            style="@style/CustomTextViewStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/label_fifty_dollar" />
+
+        <EditText
+            style="@style/CustomEditTextStyle"
+            android:id="@+id/input_fifty_dollar"
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:autofillHints="none"
+            android:hint="@string/hint_input_fifty_dollar"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <!-- Row for $100 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            style="@style/CustomTextViewStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/label_hundred_dollar" />
+
+        <EditText
+            style="@style/CustomEditTextStyle"
+            android:id="@+id/input_hundred_dollar"
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:autofillHints="none"
+            android:hint="@string/hint_input_hundred_dollar"
+            android:inputType="number" />
+
+
+    </LinearLayout>
+    <!-- Add similar rows for $5, $10, $20, $50, $100 -->
+
+    <!-- Total Display -->
+    <TextView
+        style="@style/CustomTextViewStyle"
+        android:id="@+id/total_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/label_total"
+        android:textSize="32sp" />
+
+</LinearLayout>
+
+
+
+

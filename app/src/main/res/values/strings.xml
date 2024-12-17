@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Currency_Counter</string>
+
+    <string name="label_hint">INPUT</string>
+
+    <string name="label_one_cent">1¢</string>
+    <string name="label_five_cents">5¢</string>
+    <string name="label_ten_cents">10¢</string>
+    <string name="label_twenty_five_cents">25¢</string>
+    <string name="label_one_dollar">$1</string>
+    <string name="label_five_dollar">$5</string>
+    <string name="label_ten_dollar">$10</string>
+    <string name="label_twenty_dollar">$20</string>
+    <string name="label_fifty_dollar">$50</string>
+    <string name="label_hundred_dollar">$100</string>
+
+    <string name="hint_input_one_cent">Amount of Pennies</string>
+    <string name="hint_input_five_cents">Amount of Nickels</string>
+    <string name="hint_input_ten_cents">Amount of Dimes</string>
+    <string name="hint_input_twentyfive_cents">Amount of Quarters</string>
+    <string name="hint_input_one_dollar">Amount of Dollars</string>
+    <string name="hint_input_five_dollar">Amount of Fives</string>
+    <string name="hint_input_ten_dollar">Amount of Tens</string>
+    <string name="hint_input_twenty_dollar">Amount of Twenties</string>
+    <string name="hint_input_fifty_dollar">Amount of Fifties</string>
+    <string name="hint_input_hundred_dollar">Amount of Hundreds</string>
+
+    <string name="label_total">TOTAL</string>
+
+    <!-- Add more labels for other currency and denominations -->
+</resources>
