@@ -1,13 +1,4 @@
-'''
-   _____                                        _____                          _            
-/ ____|                                      / ____|                        | |           
-| |    _   _ _ __ _ __ ___ _ __   ___ _   _  | |     ___  _ ____   _____ _ __| |_ ___ _ __
-| |   | | | | '__| '__/ _ \ '_ \ / __| | | | | |    / _ \| '_ \ \ / / _ \ '__| __/ _ \ '__|
-| |___| |_| | |  | | |  __/ | | | (__| |_| | | |___| (_) | | | \ V /  __/ |  | ||  __/ |   
-\_____\__,_|_|  |_|  \___|_| |_|\___|\__, |  \_____\___/|_| |_|\_/ \___|_|   \__\___|_|   
-                                      __/ |                                               
-                                     |___/                                                
-'''
+## Currency Calculator
 
 This is a simple Android app that allows users to input quantities of various currency denominations. The app calculates and displays the total value in real time.
 
