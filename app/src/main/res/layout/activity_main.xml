@@ -5,6 +5,22 @@
     android:orientation="vertical"
     android:padding="16dp">
 
+    <!-- Total Display -->
+    <TextView
+        style="@style/CustomTextViewStyle"
+        android:id="@+id/total_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/label_total"
+        android:textSize="32sp" />
+
+    <!-- Decorative Line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black" />
+
     <!-- Row for 1¢ -->
     <LinearLayout
         android:layout_width="match_parent"
@@ -258,19 +274,8 @@
             android:hint="@string/hint_input_hundred_dollar"
             android:inputType="number" />
 
-
     </LinearLayout>
     <!-- Add similar rows for $5, $10, $20, $50, $100 -->
-
-    <!-- Total Display -->
-    <TextView
-        style="@style/CustomTextViewStyle"
-        android:id="@+id/total_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="@string/label_total"
-        android:textSize="32sp" />
 
 </LinearLayout>
 

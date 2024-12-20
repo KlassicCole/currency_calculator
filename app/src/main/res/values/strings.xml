@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name">Currency_Counter</string>
 
-    <string name="label_hint">INPUT</string>
+    <string name="label_total">TOTAL USD</string>
 
+    <string name="label_hint">INPUT</string>
     <string name="label_one_cent">1¢</string>
     <string name="label_five_cents">5¢</string>
     <string name="label_ten_cents">10¢</string>
@@ -25,7 +26,7 @@
     <string name="hint_input_fifty_dollar">Amount of Fifties</string>
     <string name="hint_input_hundred_dollar">Amount of Hundreds</string>
 
-    <string name="label_total">TOTAL</string>
+
 
     <!-- Add more labels for other currency and denominations -->
 </resources>
