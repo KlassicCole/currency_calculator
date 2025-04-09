@@ -1,6 +1,6 @@
 ## Currency Calculator
 
-This is a simple Android app that allows users to input quantities of various currency denominations. The app calculates and displays the total value in real time.
+I could only find apps on my android phone that had ads on them when I used their simple multiplication for counting the cash register at night. I got fed up with this so I used Android studio to make my own. This is a simple Android app that allows users to input quantities of various currency denominations. The app calculates and displays the total value in real time.
 
 ## Features
 
